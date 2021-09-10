@@ -189,62 +189,11 @@ class _ScreenInitState extends State<ArticleOne> {
               ),
               child: Center(
                 child: Text(
-                  '+ Ajouter au pagner',
+                  '+ Ajouter au panier',
                   style: TextStyle(fontSize: 14),
                 ),
               ),
             ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget infosBuilder1() {
-    return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.bottomCenter,
-          end: Alignment.topCenter,
-          stops: [0.0, .5, .8, 1],
-          colors: [
-            xPrimary,
-            xPrimary,
-            xPrimary.withOpacity(.3),
-            xPrimary.withOpacity(0),
-          ],
-        ),
-      ),
-      padding: EdgeInsets.only(bottom: 40),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: [
-          Text(
-            '36 000 XOF',
-            style: TextStyle(
-              fontSize: 22,
-            ),
-          ),
-          SizedBox(height: 30),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              SvgPicture.asset(
-                'assets/icons/chat.svg',
-                width: 48,
-              ),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 20),
-                child: SvgPicture.asset(
-                  'assets/icons/whatsapp.svg',
-                  width: 48,
-                ),
-              ),
-              SvgPicture.asset(
-                'assets/icons/phone-call.svg',
-                width: 48,
-              ),
-            ],
           ),
         ],
       ),
