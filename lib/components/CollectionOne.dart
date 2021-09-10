@@ -22,8 +22,8 @@ class _CollectionOneState extends State<CollectionOne> {
       "infos": '',
     },
     {
-      "name": 'Accésoires',
-      "image": 'airpods.png',
+      "name": 'Chaussures pour homme',
+      "image": 'sneakers.png',
       "infos": '',
     },
     {

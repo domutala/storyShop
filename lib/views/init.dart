@@ -47,16 +47,6 @@ class _VInitState extends State<VInit> {
       fit: StackFit.expand,
       children: [
         Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topRight,
-              end: Alignment.bottomLeft,
-              colors: [
-                Colors.cyanAccent,
-                xPrimary,
-              ],
-            ),
-          ),
           child: Center(
             child: SvgPicture.asset(
               'assets/icons/shopping-cart.svg',
