@@ -44,7 +44,6 @@ class _VGalleryState extends State<VGallery> {
         ArticleOne(id: 2, bottomWidgetPosition: _bottomWidgetPosition),
         ArticleOne(id: 3, bottomWidgetPosition: _bottomWidgetPosition),
         ArticleOne(id: 4, bottomWidgetPosition: _bottomWidgetPosition),
-        ArticleOne(id: 5, bottomWidgetPosition: _bottomWidgetPosition),
       ]);
     });
 

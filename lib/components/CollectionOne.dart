@@ -17,24 +17,24 @@ class _CollectionOneState extends State<CollectionOne> {
 
   List<Map<String, String>> collections = [
     {
-      "name": 'Robes de soirées',
-      "image": 'robe.png',
+      "name": 'Vêtement',
+      "image": 'shirt_1.png',
       "infos": '',
     },
     {
-      "name": 'Chaussures pour homme',
-      "image": 'sneakers.png',
-      "infos": '',
+      "name": 'Chaussures',
+      "image": 'shoe.png',
+      "infos": '+16',
     },
     {
-      "name": 'Talons pour femmes',
-      "image": 'high-heel.png',
-      "infos": '+18',
+      "name": 'Sacs',
+      "image": 'backpack.png',
+      "infos": 'Nouveauté',
     },
     {
-      "name": 'Maquillages',
+      "name": 'Montres',
       "image": 'make-up.png',
-      "infos": 'nouveauté',
+      "infos": '',
     },
     {
       "name": 'Bébé',
