@@ -26,7 +26,8 @@ class _VHomeState extends State<VHome> {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
       SystemUiOverlayStyle(
-        statusBarColor: xLight,
+        statusBarColor: Colors.yellow,
+        statusBarIconBrightness: Brightness.dark,
         systemNavigationBarColor: xPrimary,
         systemNavigationBarIconBrightness: Brightness.dark,
         systemNavigationBarDividerColor: xPrimary,
@@ -63,7 +64,7 @@ class _VHomeState extends State<VHome> {
               margin: EdgeInsets.only(bottom: 130),
               child: Wrap(
                 children: [
-                  for (var i = 0; i < 5; i++) CollectionOne(id: i),
+                  for (var i = 0; i < 4; i++) CollectionOne(id: i),
                 ],
               ),
             )

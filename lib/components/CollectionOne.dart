@@ -18,7 +18,7 @@ class _CollectionOneState extends State<CollectionOne> {
   List<Map<String, String>> collections = [
     {
       "name": 'Vêtement',
-      "image": 'shirt_1.png',
+      "image": 'shirt.png',
       "infos": '',
     },
     {
@@ -33,13 +33,8 @@ class _CollectionOneState extends State<CollectionOne> {
     },
     {
       "name": 'Montres',
-      "image": 'make-up.png',
+      "image": 'watch.png',
       "infos": '',
-    },
-    {
-      "name": 'Bébé',
-      "image": 'stroller.png',
-      "infos": 'nouveauté',
     },
   ];
   @override
